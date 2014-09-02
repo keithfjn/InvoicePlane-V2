@@ -5,9 +5,17 @@
 **Attention!** This is the development repository for InvoicePlane v2.
 If you want to use the application please use version 1.x that can be found at https://github.com/InvoicePlane/InvoicePlane
 
+===
+
+#### Development Resources
+
+* [Roadmap](https://github.com/InvoicePlane/InvoicePlane-v2/wiki/Roadmap)
+* [Issue Tracker](https://github.com/InvoicePlane/InvoicePlane-v2/issues)
+* [HuBoard Board](https://huboard.com/InvoicePlane/InvoicePlane-v2)
+* [Gitter Chatroom](https://gitter.im/InvoicePlane/InvoicePlane-v2)
   
 ---
   
-*Please notice: The name (InvoicePlane) and the logo can be used but may not be changed / altered in any way.
-The name and the logo are both original copyright by Kovah.de. For more information visit invoiceplane.com/license-copyright*
+*Please notice: The name (InvoicePlane) and the logo can be used but may not be changed or altered in any way.
+The name and the logo are both copyright by Kovah.de. For more information visit invoiceplane.com/license-copyright*
 
