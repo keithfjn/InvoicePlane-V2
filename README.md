@@ -9,10 +9,12 @@ If you want to use the application please use version 1.x that can be found at h
 
 #### Development Resources
 
+* [**ToDo**](https://github.com/InvoicePlane/InvoicePlane-v2/wiki/ToDo)
 * [Roadmap](https://github.com/InvoicePlane/InvoicePlane-v2/wiki/Roadmap)
 * [Issue Tracker](https://github.com/InvoicePlane/InvoicePlane-v2/issues)
-* [HuBoard Board](https://huboard.com/InvoicePlane/InvoicePlane-v2)
+* [Waffle.io Kanban Board](https://waffle.io/InvoicePlane/InvoicePlane-v2)
 * [Gitter Chatroom](https://gitter.im/InvoicePlane/InvoicePlane-v2)
+* [Database Scheme](https://my.vertabelo.com/public-model-view/FTM7kwegMsV99IGYK5h804p1wvrFzBEZFYvtAvCeOpLps1CsXLc4vRDyC4gpgR1C)
   
 ---
   
