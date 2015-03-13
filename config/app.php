@@ -150,6 +150,8 @@ return [
          */
         'Cartalyst\Sentry\SentryServiceProvider',
         'Collective\Html\HtmlServiceProvider',
+        'Barryvdh\Debugbar\ServiceProvider',
+        'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider',
 
 	],
 
@@ -205,6 +207,7 @@ return [
         'Sentry'    => 'Cartalyst\Sentry\Facades\Laravel\Sentry',
         'Form'      => 'Collective\Html\FormFacade',
         'Html'      => 'Collective\Html\HtmlFacade',
+        'Debugbar'  => 'Barryvdh\Debugbar\Facade',
 
 	],
 
