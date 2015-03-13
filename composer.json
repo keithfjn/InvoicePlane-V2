@@ -11,9 +11,17 @@
 	"license": "MIT",
 	"type": "project",
 
+    "respositories": [
+      {
+        "type": "git",
+        "url": "https://github.com/cartalyst/sentry"
+      }
+    ],
+
 	"require": {
       "laravel/framework": "5.0.*",
-      "laravel/cashier": "~4.0"
+      "laravel/cashier": "~4.0",
+      "cartalyst/sentry": "dev-feature/laravel-5"
 	},
 
 	"require-dev": {
