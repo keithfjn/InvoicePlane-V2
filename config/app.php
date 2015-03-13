@@ -145,6 +145,11 @@ return [
 		'App\Providers\EventServiceProvider',
 		'App\Providers\RouteServiceProvider',
 
+        /*
+         * InvoicePlane Service Providers
+         */
+        'Cartalyst\Sentry\SentryServiceProvider',
+
 	],
 
 	/*
@@ -192,6 +197,11 @@ return [
 		'URL'       => 'Illuminate\Support\Facades\URL',
 		'Validator' => 'Illuminate\Support\Facades\Validator',
 		'View'      => 'Illuminate\Support\Facades\View',
+
+        /*
+         * InvoicePlane Aliases
+         */
+        'Sentry'    => 'Cartalyst\Sentry\Facades\Laravel\Sentry',
 
 	],
 
