@@ -149,6 +149,7 @@ return [
          * InvoicePlane Service Providers
          */
         'Cartalyst\Sentry\SentryServiceProvider',
+        'Collective\Html\HtmlServiceProvider',
 
 	],
 
@@ -202,6 +203,8 @@ return [
          * InvoicePlane Aliases
          */
         'Sentry'    => 'Cartalyst\Sentry\Facades\Laravel\Sentry',
+        'Form'      => 'Collective\Html\FormFacade',
+        'Html'      => 'Collective\Html\HtmlFacade',
 
 	],
 
