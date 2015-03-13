@@ -1,16 +1,26 @@
 {
-	"name": "laravel/laravel",
-	"description": "The Laravel Framework.",
-	"keywords": ["framework", "laravel"],
+	"name": "InvoicePlane/InvoicePlane-V2",
+	"description": "A free and open source invoicing application.",
+
+	"keywords": [
+      "InvoicePlane",
+      "invoice",
+      "laravel"
+    ],
+
 	"license": "MIT",
 	"type": "project",
+
 	"require": {
-		"laravel/framework": "5.0.*"
+      "laravel/framework": "5.0.*",
+      "laravel/cashier": "~4.0"
 	},
+
 	"require-dev": {
 		"phpunit/phpunit": "~4.0",
 		"phpspec/phpspec": "~2.1"
 	},
+
 	"autoload": {
 		"classmap": [
 			"database"
@@ -24,6 +34,7 @@
 			"tests/TestCase.php"
 		]
 	},
+
 	"scripts": {
 		"post-install-cmd": [
 			"php artisan clear-compiled",
@@ -38,6 +49,7 @@
 			"php artisan key:generate"
 		]
 	},
+
 	"config": {
 		"preferred-install": "dist"
 	}
