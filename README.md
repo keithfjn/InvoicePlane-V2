@@ -5,15 +5,23 @@
 **Attention!** This is the development repository for InvoicePlane v2.
 If you want to use the application please use version 1.x that can be found at https://github.com/InvoicePlane/InvoicePlane
 
+If you want to help developing please check out the CONTRIBUTION.md or the [Development Wiki Page](https://github.com/InvoicePlane/InvoicePlane-V2/wiki).
+
+===
+
+#### Status
+
+[![Build Status](https://travis-ci.org/InvoicePlane/InvoicePlane-V2.svg?branch=master)](https://travis-ci.org/InvoicePlane/InvoicePlane-V2) [![Crowdin](https://d322cqt584bo4o.cloudfront.net/invoiceplane/localized.png)](https://crowdin.com/project/invoiceplane)
+
 ===
 
 #### Development Resources
 
 * [Roadmap](https://github.com/InvoicePlane/InvoicePlane-v2/wiki/Roadmap)
-* [Issue Tracker](https://github.com/InvoicePlane/InvoicePlane-v2/issues)
-* [Waffle.io Kanban Board](https://waffle.io/InvoicePlane/InvoicePlane-v2)
-* [Gitter Chatroom](https://gitter.im/InvoicePlane/InvoicePlane-v2)
-* [Database Scheme](https://my.vertabelo.com/public-model-view/FTM7kwegMsV99IGYK5h804p1wvrFzBEZFYvtAvCeOpLps1CsXLc4vRDyC4gpgR1C)
+* [Issue Tracker / Agile Board](https://development.invoiceplane.com/browse/IPT)
+* [Gitter Chatroom](https://gitter.im/InvoicePlane/InvoicePlane/InvoicePlaneDevelopment)
+* [Community: Development Discussion](https://community.invoiceplane.com/c/development-discussion)
+* [Translation Repository](https://translations-v2.invoiceplane.com)
   
 ---
   
