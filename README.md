@@ -11,7 +11,7 @@ If you want to help developing please check out the CONTRIBUTION.md or the [Deve
 
 #### Status
 
-[![Build Status](https://travis-ci.org/InvoicePlane/InvoicePlane-V2.svg?branch=master)](https://travis-ci.org/InvoicePlane/InvoicePlane-V2) [![Crowdin](https://d322cqt584bo4o.cloudfront.net/invoiceplane/localized.png)](https://crowdin.com/project/invoiceplane)
+[![Build Status](https://travis-ci.org/InvoicePlane/InvoicePlane-V2.svg?branch=master)](https://travis-ci.org/InvoicePlane/InvoicePlane-V2) [![Crowdin](https://d322cqt584bo4o.cloudfront.net/invoiceplane/localized.png)](https://crowdin.com/project/invoiceplane) [![Code Climate](https://codeclimate.com/github/InvoicePlane/InvoicePlane-v2/badges/gpa.svg)](https://codeclimate.com/github/InvoicePlane/InvoicePlane-v2)
 
 ===
 
