@@ -26,7 +26,8 @@
       "barryvdh/laravel-debugbar": "~2.0",
       "barryvdh/laravel-ide-helper": "~2.0",
       "doctrine/dbal": "~2.3",
-      "omnipay/omnipay": "~2.0"
+      "omnipay/omnipay": "~2.0",
+		"guzzle/guzzle": "~3.9@dev"
 	},
 
 	"require-dev": {
