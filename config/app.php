@@ -152,6 +152,7 @@ return [
         'Collective\Html\HtmlServiceProvider',
         'Barryvdh\Debugbar\ServiceProvider',
         'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider',
+        'Illuminate\Html\HtmlServiceProvider',
 
 	],
 
@@ -208,6 +209,8 @@ return [
         'Form'      => 'Collective\Html\FormFacade',
         'Html'      => 'Collective\Html\HtmlFacade',
         'Debugbar'  => 'Barryvdh\Debugbar\Facade',
+        'Html'      => 'Illuminate\Html\HtmlFacade',
+    	'Form'      => 'Illuminate\Html\FormFacade',
 
 	],
 
