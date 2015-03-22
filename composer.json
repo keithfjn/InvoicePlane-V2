@@ -27,7 +27,8 @@
       "barryvdh/laravel-ide-helper": "~2.0",
       "doctrine/dbal": "~2.3",
       "omnipay/omnipay": "~2.0",
-      "illuminate/html": "5.*"
+      "illuminate/html": "5.*",
+      "guzzle/guzzle": "3.9.*"
 	},
 
 	"require-dev": {
