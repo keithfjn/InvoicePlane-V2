@@ -3,18 +3,18 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateClientTables extends Migration {
+class ClientTables extends Migration
+{
 
-	/**
-	 * Run the migrations.
-	 *
-	 * @return void
-	 */
-	public function up()
-	{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
         // Add the clients table
-        Schema::create('clients', function($table)
-        {
+        Schema::create('clients', function ($table) {
             $table->increments('id');
             $table->boolean('active');
             $table->string('name', 100);
@@ -28,34 +28,32 @@ class CreateClientTables extends Migration {
         });
 
         // Add the client_addresses table
-        Schema::create('client_addresses', function($table)
-        {
+        Schema::create('client_addresses', function ($table) {
             $table->increments('id');
-            $table->integer('client_id');
+            $table->integer('client_id')->unsigned(); // FK
             $table->text('address');
             $table->string('country', 50)->nullable();
             $table->timestamps();
         });
 
         // Add the client_notes table
-        Schema::create('client_notes', function($table)
-        {
+        Schema::create('client_notes', function ($table) {
             $table->increments('id');
-            $table->integer('client_id');
+            $table->integer('client_id')->unsigned(); // FK
+            $table->integer('user_id')->unsigned(); // FK
             $table->text('note');
-            $table->integer('user_id');
             $table->timestamps();
         });
-	}
+    }
 
-	/**
-	 * Reverse the migrations.
-	 *
-	 * @return void
-	 */
-	public function down()
-	{
-		//
-	}
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        //
+    }
 
 }
