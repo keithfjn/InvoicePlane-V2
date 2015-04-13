@@ -44,6 +44,7 @@ class SetForeignKeys extends Migration
         Schema::table('vouchers', function ($table) {
             $table->foreign('creator_id')->references('id')->on('users');
             $table->foreign('client_id')->references('id')->on('clients');
+            $table->foreign('client_address_id')->references('id')->on('client_addresses');
             $table->foreign('project_id')->references('id')->on('projects');
             $table->foreign('voucher_group_id')->references('id')->on('voucher_groups');
             $table->foreign('voucher_status_id')->references('id')->on('voucher_statuses');

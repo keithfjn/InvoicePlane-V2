@@ -20,6 +20,7 @@ class VoucherTables extends Migration
             $table->integer('type');
             $table->integer('creator_id')->unsigned(); // FK
             $table->integer('client_id')->unsigned(); // FK
+            $table->integer('client_address_id')->unsigned(); // FK
             $table->integer('project_id')->nullable()->unsigned(); // FK
             $table->integer('voucher_group_id')->unsigned(); // FK
             $table->integer('voucher_status_id')->unsigned(); // FK
