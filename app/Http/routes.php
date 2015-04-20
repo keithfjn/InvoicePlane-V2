@@ -11,11 +11,38 @@
 |
 */
 
-Route::get('/', 'WelcomeController@index');
-
-Route::get('home', 'HomeController@index');
-
 Route::controllers([
-	'auth' => 'Auth\AuthController',
-	'password' => 'Auth\PasswordController',
+    // Setup & Update Controllers
+    'setup' => 'SetupController',
+    'update' => 'UpdateController',
 ]);
+
+Route::group(['middleware' => 'ip.start'], function () {
+    Route::get('/', function () {
+        redirect('dashboard');
+    });
+
+    Route::controllers([
+        // Session Controllers
+        'auth' => 'Auth\AuthController',
+        'password' => 'Auth\PasswordController',
+
+        // Basic controllers
+        'dashboard' => 'Basic\DashboardController',
+        'clients' => 'Basic\ClientsController',
+        'quotes' => 'Basic\QuotesController',
+        'invoices' => 'Basic\InvoicesController',
+        'items' => 'Basic\ItemsController',
+        'payments' => 'Basic\PaymentsController',
+
+        // Project Controllers
+        'projects' => 'Projects\ProjectsController',
+        'messages' => 'Projects\MessagesController',
+
+        // Settings & Administration Controllers
+        'users' => 'Admin\UsersController',
+        'settings' => 'Admin\SettingsController',
+    ]);
+});
+
+
