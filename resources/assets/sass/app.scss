@@ -11,19 +11,7 @@
 //  =========================================================
 //
 
-$color_grey:    #999999;
-$color_blue:    #3A87AD;
-$color_yellow:  #F89406;
-$color_green:   #468847;
-$color_red:     #B94A48;
-
-$color_status_draft:            #999999;
-$color_status_sent:             #3A87AD;
-$color_status_viewed:           #F89406;
-$color_status_paid_approved:    #468847;
-$color_status_rejected_overdue: #B94A48;
-$color_status_canceled:         #333333;
-
+@import "variables";
 
 //
 //  =========================================================
@@ -34,13 +22,50 @@ $color_status_canceled:         #333333;
 @import "bootstrap";
 @import "font-awesome";
 
-
 //
 //  =========================================================
-//  Styles
+//  Base Styles
 //  =========================================================
 //
 
 html {
   color: $color_grey;
+}
+
+//  =========================================================
+//  Setup
+//  =========================================================
+
+#setup {
+    padding-top: 20px;
+}
+
+.ip-logo {
+    display: block;
+    width: 300px;
+    height: 150px;
+    margin: 30px auto;
+    background: url("../img/ip_logo_300x150.png") center center no-repeat transparent;
+    @media
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (   min--moz-device-pixel-ratio: 2),
+    only screen and (     -o-min-device-pixel-ratio: 2/1),
+    only screen and (        min-device-pixel-ratio: 2),
+    only screen and (                min-resolution: 192dpi),
+    only screen and (                min-resolution: 2dppx) {
+        background-url: url("../img/ip_logo_600x300.png");
+        background-size: 300px 150px;
+    }
+}
+
+//  =========================================================
+//  Various Styles
+//  =========================================================
+
+.fa-margin-right {
+    margin-right: $font-size-base / 2;
+}
+
+.fa-margin-left {
+    margin-left: $font-size-base / 2;
 }
