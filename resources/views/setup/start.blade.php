@@ -5,9 +5,12 @@
     <div id="setup"
          class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
 
-        <div class="ip-logo"></div>
+        <h1 id="ip-logo" class="ip-logo" style="display: none;"></h1>
 
-        <div class="panel panel-default">
+        <h2 id="welcome-text" class="text-center" style="display: none;">@lang('setup.welcome')</h2>
+        <br/>
+
+        <div id="language-panel" class="panel panel-default" style="display: none;">
 
             <div class="panel-heading">
                 <h3 class="panel-title">@lang('setup.ip_setup')</h3>
@@ -22,9 +25,8 @@
 
                     <div class="form-group">
                         <div class="row">
-                            <label class="col-xs-12 control-label">@lang('setup.choose_language')</label>
                             <div class="col-xs-12 col-sm-8">
-                                <select class="form-control">
+                                <select class="form-control" name="language" id="select-language">
                                     @foreach($languages as $langcode => $langname)
                                         <option value="{{$langcode}}"
                                             @if($langcode === 'en') selected @endif
@@ -47,4 +49,10 @@
         </div>
 
     </div>
+
+    <script>
+        $('#ip-logo').fadeIn(1000);
+        $('#welcome-text').delay(1500).fadeIn(1000);
+        $('#language-panel').delay(2500).slideDown(1000);
+    </script>
 @endsection

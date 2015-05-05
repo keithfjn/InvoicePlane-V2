@@ -14,7 +14,8 @@ return [
     'ip_setup' => 'InvoicePlane Setup',
 
     // Start and Language selection
-    'start.text' => 'Welcome to the InvoicePlane Setup.<br/>Please choose your language and click "Next" to continue.',
+    'welcome' => 'Welcome to the InvoicePlane Setup',
+    'start.text' => 'Please choose your language and click "Next" to continue.',
     'choose_language' => 'Choose your language',
 
     // Requirements Check

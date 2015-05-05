@@ -25,7 +25,11 @@ class IPStart
 
         // Redirect to the setup if InvoicePlane is not installed yet
         if ($is_installed === false) {
-            return redirect('setup');
+            // Get all available languages
+            $languages = \App\Helpers\IP::getAllLanguages();
+
+            // Return the setup view
+            return view('setup.start')->with('languages', $languages);
         }
 
         /*
